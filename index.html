@@ -269,6 +269,18 @@ van het formulier!</div>
 #hide-footer{display: none !important;}
 </style>
  
-  
+ <!-- Pływający przycisk Tłumacza Google -->
+<div id="google_translate_element" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; background: #fff; padding: 5px; border-radius: 5px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2);"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'nl', // Oryginalny język strony (holenderski)
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//://google.com"></script>
+ 
 </body>
 </html>
